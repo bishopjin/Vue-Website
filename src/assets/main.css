@@ -1,0 +1,36 @@
+/*@import "./base.css";*/
+body {
+
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.btn-text-normal {
+  text-transform: unset !important;
+}
+
+.v-app-bar-title__content {
+	font-weight: bold;
+	width: 200px !important;
+}
+
+.mobile-thumbnail-size {
+	width: 50%;
+}
+
+.main {
+	height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+	.mobile-thumbnail-size {
+		width: 100%;
+	}	
+
+	.intro-carousel-h {
+		height: 100%;
+	}
+}
